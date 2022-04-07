@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         String title[]={"Donald Trump","Joe Biden","Lionel Messi","John Rawls","Neymar","Ronaldo","Ozil","Vladimir Putin","Queen Elizabeth","Rihanna","Selena Gomez","Messi","Salah","Sophia Loren","Kane","Taylor Swift"};
-        String description[]={"0778855963"};
-        
+        String description[]={"0778855963","0718899665","0778855963","0718899665","0778855963","0718899665","0778855963","0718899665","0778855963","0718899665"};
+
 
     }
 }
