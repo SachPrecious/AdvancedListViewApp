@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         int[] images;
         String[] des;
 
-        CustomeAdapter(@NonNull Context context, String[] title,int[] images ,String[] des) {
+        CustomeAdapter(@NonNull Context context, String[] title,int[] images,String[] des) {
             super(context, R.layout.single_row_content,R.id.txtTitle,title);
             this.context=context;
             this.images=images;
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-            return super.getView(position, convertView, parent);
+            return row;
 
 
         }
